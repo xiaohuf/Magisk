@@ -10,7 +10,7 @@
 #define MAGISKDB        SECURE_DIR "/magisk.db"
 
 // tmpfs paths
-#define INTLROOT      ".magisk"
+#define INTLROOT      ".kumamagisk"
 #define MIRRDIR       INTLROOT "/mirror"
 #define PREINITMIRR   INTLROOT "/preinit"
 #define DEVICEDIR     INTLROOT "/device"
@@ -26,7 +26,7 @@
 #define MAIN_SOCKET   DEVICEDIR "/socket"
 #define LOG_PIPE      DEVICEDIR "/log"
 
-constexpr const char *applet_names[] = { "su", "resetprop", nullptr };
+constexpr const char *applet_names[] = { "kuma", "resetprop", nullptr };
 
 #define POST_FS_DATA_WAIT_TIME       40
 #define POST_FS_DATA_SCRIPT_MAX_TIME 35
